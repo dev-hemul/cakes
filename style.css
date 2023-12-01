@@ -6,7 +6,7 @@ body {
     line-height: 27px;
     color: #2d2829;
     background-color: #fbebea;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 img {
