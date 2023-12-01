@@ -6,13 +6,19 @@ body {
     line-height: 27px;
     color: #2d2829;
     background-color: #fbebea;
+    overflow: hidden;
 }
 
+img {
+max-width: 100%;
+height: auto;
+}
 
 .container {
     width: 1366px;
     margin: 0 auto;
     padding: 0 74px;
+    box-sizing: border-box;
 }
 
 .page-header .container {
