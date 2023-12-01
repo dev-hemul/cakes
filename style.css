@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #2d2829;
+    background-color: #fbebea;
+}
+
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    padding: 0 74px;
+}
+
+.page-header .container {
+    display: flex;
+    margin-top: 64px;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.main-nav {
+    width: 834px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-navigation {
+    width: 721px;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0;
+    margin-right: 45px;
+}
+
+.site-navigation {
+    list-style: none;
+}
+
+.site-navigation-item a {
+    font-size: 13px;
+    line-height: 16px;
+    color: #2d2829;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.site-navigation-item a.active {
+    color: #f50049;
+}
+
+.container-phone {
+    margin: 0;
+}
+
+.phone {
+    width: 120px;
+    font-family: "Playfair Display", serif;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #2D2829;
+    text-decoration: none;
+}
+
+.promo-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo-wrapper-left {
+    width: 484px;
+}
+
+.promo-wrapper-right {
+    width: 759px;
+    position: relative;
+    top: -130px;
+    left: 74px;
+}
+
+.promo h1 {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 78px;
+    line-height: 70px;
+}
+
+.promo p {
+    margin: 0;
+    margin-bottom: 75px;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 53px;
+}
+
+.button {
+    display: inline-block;
+    width: 226px;
+    margin-bottom: 100px;
+    padding: 12px 62px;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 27px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(245, 0, 73, 1);
+}
+
+.features {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 484px;
+    list-style: none;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.features .nature {
+    position: relative;
+    width: 183px;
+    padding-left: 65px;
+}
+
+.features .nature:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -15px;
+    width: 55px;
+    height: 55px;
+    background-image: url("img/leaf.svg");
+}
+
+.features .delivery {
+    position: relative;
+    width: 261px;
+    padding-left: 65px;
+}
+
+.features .delivery:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -15px;
+    width: 55px;
+    height: 55px;
+    background-image: url("img/delivery.svg");
+}
+
+
+
+.catalog h2 {
+    font-size: 40px;
+    line-height: 66px;
+}
+
+.catalog h3 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.catalog a {
+    font-size: 18px;
+    line-height: 24px;
+    color: #2d2829;
+    text-decoration: none;
+}
+
+.reviews h2 {
+    font-size: 40px;
+    line-height: 66px;
+    text-align: center;
+}
+
+.reviews h3 {
+    font-size: 27px;
+    line-height: 36px;
+}
+
+.review .review-info {
+    font-size: 25px;
+    line-height: 33px;
+}
+
+.advantages {
+    background-image: url("img/berries.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.advantages h2 {
+    font-size: 40px;
+    line-height: 66px;
+    text-align: center;
+}
+
+.advantages-text {
+    font-style: italic;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.advantages-list h3 {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.contacts h2 {
+    font-size: 40px;
+    line-height: 66px;
+}
+
+.contact-item h3 {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.contact-item address {
+    font-style: normal;
+}
+
+.contact-item a {
+    color: #2d2829;
+    text-decoration: none;
+}
+
+.social-item {
+    background-color: #ffffff;
+}
+
+.main-footer {
+    color: #888888;
+    background-color: #e8e8e8;
+}
+
+.footer-navigation-item a {
+    font-size: 13px;
+    line-height: 16px;
+    color: #2d2829;
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
