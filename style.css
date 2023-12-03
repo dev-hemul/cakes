@@ -39,6 +39,7 @@ height: auto;
     display: flex;
     margin: 0;
     justify-content: space-between;
+    align-content: flex-end;
 }
 
 .logo {
@@ -110,7 +111,6 @@ height: auto;
 
 .button {
     display: inline-block;
-    width: 226px;
     margin-bottom: 100px;
     padding: 12px 62px;
     border-radius: 25px;
@@ -168,7 +168,9 @@ height: auto;
     background-image: url("img/delivery.svg");
 }
 
-
+.catalog {
+    margin-bottom: 100px;
+}
 
 .catalog h2 {
     font-size: 40px;
@@ -200,19 +202,6 @@ height: auto;
     margin-right: 38px;
 }
 
-.cards li h3 {
-    position: absolute;
-    top: 30px;
-    left: 35px;
-}
-
-.cards li a {
-    display: block;
-    position: absolute;
-    bottom: 35px;
-    right: 72px;
-}
-
 .cards li:after {
     content: "";
     position: absolute;
@@ -224,50 +213,84 @@ height: auto;
     background-repeat: no-repeat;
 }
 
-.cards li img {
-    display: block;
+.cards li h3 {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
 }
 
 .cards li p {
     position: absolute;
     top: 62px;
     left: 35px;
-}
-
-.catalog h3 {
-    font-size: 24px;
-    line-height: 32px;
     margin: 0;
 }
 
-.catalog p {
-    margin: 0;
+.cards li img {
+    display: block;
 }
 
 .catalog a {
+    display: block;
+    position: absolute;
+    bottom: 35px;
+    right: 72px;
     font-size: 18px;
     line-height: 24px;
     color: #2d2829;
     text-decoration: none;
 }
 
+.reviews {
+    width: 720px;
+    margin: 0 auto;
+    margin-bottom: 115px;
+}
+
 .reviews h2 {
+    width: 165px;
+    margin: 0 auto;
     font-size: 40px;
     line-height: 66px;
-    text-align: center;
+    margin-bottom: 58px;
+}
+
+.review {
+    width: 1218px;
+    display: grid;
+    grid-template-columns: 210px 445px;
+    column-gap: 65px;
+}
+
+.review img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
 }
 
 .reviews h3 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
     font-size: 27px;
     line-height: 36px;
+    margin: 0;
+}
+
+.review p {
+    padding: 0;
+    margin: 0;
 }
 
 .review .review-info {
     font-size: 25px;
     line-height: 33px;
+    margin-bottom: 19px;
 }
 
-.advantages {
+.advantages-wrapper {
+    min-height: 667px;
     background-image: url("img/berries.png");
     background-position: left center;
     background-repeat: no-repeat;
@@ -277,6 +300,8 @@ height: auto;
     font-size: 40px;
     line-height: 66px;
     text-align: center;
+    margin: 0;
+    margin-bottom: 25px;
 }
 
 .advantages-text {
@@ -284,6 +309,12 @@ height: auto;
     font-size: 30px;
     line-height: 40px;
     text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.advantages-list {
+    list-style: none;
 }
 
 .advantages-list h3 {
