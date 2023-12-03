@@ -289,10 +289,10 @@ height: auto;
     margin-bottom: 19px;
 }
 
-.advantages {
+.advantages .container {
     min-height: 622px;
     background-image: url("img/berries.png");
-    background-position: 584px center;
+    background-position: left center;
     background-repeat: no-repeat;
     margin-bottom: 100px;
 }
