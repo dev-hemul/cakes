@@ -289,11 +289,12 @@ height: auto;
     margin-bottom: 19px;
 }
 
-.advantages-wrapper {
-    min-height: 667px;
+.advantages {
+    min-height: 622px;
     background-image: url("img/berries.png");
-    background-position: left center;
+    background-position: 270px center;
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 
 .advantages h2 {
@@ -311,10 +312,14 @@ height: auto;
     text-align: center;
     padding: 0;
     margin: 0;
+    margin-bottom: 115px;
 }
 
 .advantages-list {
     list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 625px;
 }
 
 .advantages-list h3 {
@@ -322,12 +327,41 @@ height: auto;
     line-height: 27px;
 }
 
-.contacts h2 {
+.contacts {
+    margin-bottom: 119px;
+}
+
+.contacts-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-left {
+    width: 340px;
+}
+
+.contacts-left h2 {
+    margin: 0;
+    margin-bottom: 47px;
+    padding: 0;
     font-size: 40px;
     line-height: 66px;
 }
 
+.contact-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contact-item {
+    margin-bottom: 20px;
+}
+
 .contact-item h3 {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
     font-size: 20px;
     line-height: 27px;
 }
@@ -336,18 +370,70 @@ height: auto;
     font-style: normal;
 }
 
+.contact-item .contact-title {
+    margin-bottom: 10px;
+}
+
+.social-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-list .social-item {
+    margin-right: 25px;
+}
+
 .contact-item a {
     color: #2d2829;
     text-decoration: none;
 }
 
 .social-item {
+    width: 61px;
+    height: 61px;
     background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.social-item:first-child img {
+   padding: 17px 16px;
+}
+
+.social-item:last-child img {
+    padding-top: 21px;
+    padding-right: 14px;
+    padding-bottom: 20px;
+    padding-left: 14px;
 }
 
 .main-footer {
     color: #888888;
     background-color: #e8e8e8;
+}
+
+.main-footer .container section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(208, 208, 208, 1);
+}
+
+.footer-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 722px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-logo {
+    width: 68px;
+    padding: 0;
+    margin: 0;
 }
 
 .footer-navigation-item a {
@@ -358,6 +444,9 @@ height: auto;
 }
 
 .copyright {
+    width: 90px;
+    margin: 0 auto;
+    padding: 17px 0;
     font-size: 13px;
     line-height: 16px;
     text-transform: uppercase;
