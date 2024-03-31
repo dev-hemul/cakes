@@ -492,6 +492,10 @@ img {
         line-height: 18px;
         margin-bottom: 10px;
     }
+
+    .features {
+        flex-direction: column;
+    }
 }
 
 
