@@ -454,8 +454,14 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+    .container {
+        width: auto;
+        padding: 0 20px;
+    }
+
     .page-header .container {
         flex-direction: column;
+        margin-bottom: 20px;
     }
 
     .container-phone {
@@ -474,6 +480,17 @@ img {
     .site-navigation {
         padding: 0;
        flex-direction: column;
+    }
+
+    .promo-wrapper-left h1 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .promo-wrapper-left > p {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 10px;
     }
 }
 
