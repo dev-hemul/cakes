@@ -460,8 +460,14 @@ img {
     }
 
     .page-header .container {
+        font-size: 26px;
+        line-height: 29px;
         flex-direction: column;
         margin-bottom: 20px;
+    }
+
+    .button {
+        padding: 6px 25px;
     }
 
     .container-phone {
@@ -495,29 +501,18 @@ img {
 
     .features {
         flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .features li {
+        margin-bottom: 40px;
+    }
+
+    .cards li:first-child {
+
     }
 }
 
-
-@media screen and (min-width: 992px) {
-    .container {
-        width: auto;
-    }
-
-    .promo-wrapper-right {
-        display: none;
-    }
-}
-
-@media screen and  (min-width: 1200px) {
-    .container {
-        width: 1366px;
-    }
-
-    .promo-wrapper-right {
-        display: block;
-    }
-}
 
 
 
