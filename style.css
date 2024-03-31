@@ -460,6 +460,7 @@ img {
     }
 
     .page-header .container {
+        margin-top: 10px;
         font-size: 26px;
         line-height: 29px;
         flex-direction: column;
